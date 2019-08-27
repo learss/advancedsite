@@ -1,9 +1,31 @@
 body {
   margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.learn {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 900px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 900px;
 }
 
 .top-container {
   background-color: #6b778d;
+  position: relative;
+  padding-top: 50px;
 }
 
 .middle-container {
@@ -16,8 +38,4 @@ body {
   background-color: red;
   height: 200px;
   width: 200px;
-}
-
-h1 {
-
 }
