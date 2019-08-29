@@ -1,41 +1,59 @@
 body {
   margin: 0;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
+  font-size: 5.625rem;
+  padding-top: 100px;
   margin-top: 0;
+  font-family: 'Lobster', cursive;
 }
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.profile img {
+  border-radius: 100%;
+  height: 15%;
+  width: 15%;
+}
+
+.skills img {
+  height: 10%;
+  width: 10%;
+}
+
 
 .learn {
   text-decoration: underline;
+  font-weight: normal;
+  line-height: 2;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 900px;
-  bottom: 300px;
+  left: 300px;
+  bottom: 500px;
 }
 
 .top-cloud {
   position: absolute;
-  right: 900px;
+  right: 300px;
+  top: 50px;
+}
+
+.mountain {
+  margin-bottom: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-container {
-  background-color: #6b778d;
+  background-color: #5ca0d3;
   position: relative;
-  padding-top: 50px;
-}
-
-.middle-container {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
-}
-
-.bottom-container {
-  background-color: red;
-  height: 200px;
-  width: 200px;
+  height: 100vh;
 }
